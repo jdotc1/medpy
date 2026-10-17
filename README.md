@@ -1,3 +1,13 @@
+## Reusable components for medical image processing
+
+This is a development fork of [MedPy](https://github.com/loli/medpy), a Python library and collection of scripts for high-dimensional medical-image processing. Upstream organizes functionality into image I/O, filtering, metrics, and graph-cut components, giving researchers reusable pieces for image-analysis workflows and a command-line tool collection to explore.
+
+**Contribution to review:** [PR #140](https://github.com/loli/medpy/pull/140) proposes choosing the version-specific Boost.Python library when building on macOS. The scope is the optional extension's library selection; the pull request documents the proposed build change and review status.
+
+Start with the [official documentation and tutorials](http://loli.github.io/medpy/) for installation, examples, and optional dependencies. Stable-release and source-development links remain below. Use the [branch comparison](https://github.com/loli/medpy/compare/master...jdotc1:master) to distinguish this fork's default branch from the proposed macOS work.
+
+---
+
 [![PyPI version](https://badge.fury.io/py/MedPy.svg)](https://pypi.python.org/pypi/MedPy/)
 [![anaconda version](https://anaconda.org/conda-forge/medpy/badges/version.svg)](https://anaconda.org/conda-forge/medpy)
 [![PyPI pyversions](https://img.shields.io/pypi/pyversions/MedPy.svg)](https://pypi.python.org/pypi/MedPy/)
